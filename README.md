@@ -18,7 +18,7 @@ The domain consists of the following:
 
 #### 1. Interactors
 
-Interactors are a collection of well defined use cases (essentially, what does this app do?). For a typical banking app you would have "Get Transactions", "Create Transaction", "Create Account", "Login" etc. And each of these use-cases should carefully designed following [SOLID](./solid_principles.md) principles. Use cases **only** have a single public method `execute(...)`. No other methods or properties are exposed. To make things simpler, all use cases can conform to an interface pattern like the following.
+Interactors are a collection of well defined use cases (essentially, what does this app do?). For a typical banking app you would have "Get Transactions", "Create Transaction", "Create Account", "Login" etc. And each of these use-cases should be carefully designed following [SOLID](./solid_principles.md) principles. Use cases **only** have a single public method `execute(...)`. No other methods or properties are exposed. To make things simpler, all use cases can conform to an interface pattern like the following.
 
 ![Use Cases](images/usecases.png)
 
