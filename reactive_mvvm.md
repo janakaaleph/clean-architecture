@@ -4,6 +4,26 @@
 
 Everything is a signal!
 
+## ViewModel  Responsibilities
+
+* Hold UI related data for the view layer
+
+* Allow sharing of data between views
+
+* Restore lightweight data after system-initiated process death
+
+* Handle asynchronous input from view layer reactively
+
+* Composite and orchestrate execution of UseCases
+
+* Handle UseCase status such as success and error state
+
+* Transform UseCase output to observable output that will be observed by view layer
+
+
+
+
+
 ## ViewModel Template
 
 ```
